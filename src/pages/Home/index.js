@@ -40,7 +40,7 @@ const Home = () => {
             <Container>
                 <Logo src='/Logo.png' alt='id' />
                 <SubTitle>
-                    Sitema agendamentos de Rodrigo Santos
+                   Sistema Pesonalizado de Marilia S. M.
                 </SubTitle>
                 <FormControl variant='standard' color='primary' sx={{gap:3}} >
                     <Input

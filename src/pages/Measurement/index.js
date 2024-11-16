@@ -199,6 +199,7 @@ const Measurement = () => {
     console.log('aaaaaaaaaa::::::', dataClientesSelecionados)
 
     function setNewClient() {
+       
         const database = getDatabase()
 
 
@@ -214,7 +215,7 @@ const Measurement = () => {
                 farmaceutico: farmaceutico,
                 horario: response.horario,
                 dataCadastro: date
-            })
+            }).then(respone =>  handleCloseRegister())
         })
 
 
@@ -304,6 +305,8 @@ const Measurement = () => {
             <Body>
 
                 <Container1>
+                <Typography style={{ fontWeight: '600', color: 'grey', fontSize: '20px', alignSelf: 'flex-start' }} > Sistema personalizado de Marilia S. M.</Typography>
+
                 <Typography style={{ fontWeight: '600', color: 'white', fontSize: '14px', alignSelf: 'flex-start' }} > Lista de produtos</Typography>
 
                 {
