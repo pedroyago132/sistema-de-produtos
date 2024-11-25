@@ -77,7 +77,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/measure" element={null} />
+          <Route path="/measure" element={<Measurement />} />
         </Routes>
       </BrowserRouter>
       </ThemeProvider>
