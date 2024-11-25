@@ -12,6 +12,7 @@ export const Body = styled.div`
   display:flex;
    @media (max-width: 768px) { /* Ajuste o valor conforme a largura desejada */
     flex-direction:column
+    height: 100vh;
   }
 `;
 

@@ -12,6 +12,11 @@ export const Body = styled(Box)`
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100%;
+    @media (max-width: 768px) { /* Ajuste o valor conforme a largura desejada */
+    flex-direction:column;
+     display:flex;
+    height: 100%;
+  }
 `;
 
 export const ContainerDisplay = styled(Box)`
@@ -61,6 +66,9 @@ height:100%;
 align-items:center;
 flex-direction:column;
 padding:15px;
+@media (max-width: 768px) { /* Ajuste o valor conforme a largura desejada */
+   width:100%;
+  }
 `
 export const ContainerEditAccordion = styled(Box)`
 width: 100%;
