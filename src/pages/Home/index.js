@@ -41,7 +41,7 @@ const Home = () => {
             <Container>
                 <Logo src='/Logo.png' alt='id' />
                 <SubTitle>
-                   Sistema Pesonalizado de Cláduio S.
+                   Sistema Pesonalizado.
                 </SubTitle>
                 <FormControl variant='standard' color='primary' sx={{gap:3}} >
                     <TextField
