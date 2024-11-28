@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import FormControl from '@mui/material/FormControl';
 import Snackbar from '@mui/material/Snackbar';
+import TextField from '@mui/material/TextField';
 
 const Home = () => {
     const [emailInput, setEmailInput] = React.useState(false);
@@ -27,7 +28,7 @@ const Home = () => {
       };
     
     const goMeansure = () => {
-        if(emailInput == 'rodrigofarmaciashd9@gmail.com'  || emailInput == 'rayssaf@gmail.com'  && senhaInput == 'senha123' || senhaInput == 'kevin123456' ){
+        if(emailInput == 'claudios'  || emailInput == 'rayssaf@gmail.com'  && senhaInput == 'senha123' || senhaInput == 'kevin123456' ){
             navigate('/measure');
         }else {
             handleClick({ vertical: 'top', horizontal: 'right' })
@@ -40,10 +41,10 @@ const Home = () => {
             <Container>
                 <Logo src='/Logo.png' alt='id' />
                 <SubTitle>
-                   Sistema Pesonalizado de Marilia S. M.
+                   Sistema Pesonalizado de Cláduio S.
                 </SubTitle>
                 <FormControl variant='standard' color='primary' sx={{gap:3}} >
-                    <Input
+                    <TextField
                         id="outlined-multiline-flexible"
                         label="Multiline"
                         multiline
@@ -53,7 +54,7 @@ const Home = () => {
                         onChange={text => setEmailInput(text.target.value)}
                     />
 
-                    <Input
+                    <TextField
                         id="outlined-multiline-flexibl1"
                         label="Multiline"
                         multiline
