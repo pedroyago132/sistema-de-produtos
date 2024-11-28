@@ -46,7 +46,7 @@ const Home = () => {
                 <FormControl variant='standard' color='primary' sx={{gap:3}} >
                     <TextField
                         id="outlined-multiline-flexible"
-                        label="Multiline"
+                        label="Email"
                         multiline
                         maxRows={4}
                         variant='outlined'
@@ -56,7 +56,7 @@ const Home = () => {
 
                     <TextField
                         id="outlined-multiline-flexibl1"
-                        label="Multiline"
+                        label="Senha"
                         multiline
                         maxRows={4}
                         variant='outlined'
