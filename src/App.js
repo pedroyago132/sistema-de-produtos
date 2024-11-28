@@ -76,8 +76,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/measure" element={<Measurement />} />
+     
         </Routes>
       </BrowserRouter>
       </ThemeProvider>
